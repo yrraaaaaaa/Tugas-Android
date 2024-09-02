@@ -1,0 +1,17 @@
+<resources>
+    <color name="primaryColor">#1976D2</color>
+    <color name="primaryDarkColor">#1565C0</color>
+    <color name="primaryLightColor">#BBDEFB</color>
+    <color name="accentColor">#FF4081</color>
+    <color name="backgroundColor">#FAFAFA</color>
+    <color name="textPrimaryColor">#212121</color>
+    <color name="textSecondaryColor">#757575</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="purple_700">#3700B3</color>
+    <color name="white">#FFFFFF</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="black">#000000</color>
+    <color name="background">#FFFFFF</color>
+
+</resources>

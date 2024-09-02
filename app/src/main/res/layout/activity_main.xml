@@ -1,0 +1,159 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/wallpaper">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama"
+            android:textSize="18sp"
+            android:textColor="@color/textPrimaryColor"
+            android:fontFamily="@font/porshaichela"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etNama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primaryLightColor"
+            android:padding="12dp"
+            android:textColor="@color/textPrimaryColor"
+            android:textColorHint="@color/textSecondaryColor"
+            android:layout_marginBottom="16dp"
+            android:hint="Masukkan Nama Anda" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Usia"
+            android:textSize="18sp"
+            android:textColor="@color/textPrimaryColor"
+            android:fontFamily="@font/porshaichela"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/etUsia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/primaryLightColor"
+            android:padding="12dp"
+            android:textColor="@color/textPrimaryColor"
+            android:textColorHint="@color/textSecondaryColor"
+            android:layout_marginBottom="16dp"
+            android:inputType="number"
+            android:hint="Masukkan Usia Anda" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:fontFamily="@font/porshaichela"
+            android:textColor="@color/textPrimaryColor"
+            android:text="Jabatan" />
+
+        <Spinner
+            android:id="@+id/spinnerJabatan"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:layout_marginBottom="16dp"
+            android:padding="8dp"
+            android:scrollbarSize="4dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:fontFamily="@font/porshaichela"
+            android:textColor="@color/textPrimaryColor"
+            android:text="Keahlian" />
+
+        <CheckBox
+            android:id="@+id/cbProgramming"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Programming"
+            android:fontFamily="@font/porshaichela"
+            android:textColor="@color/textPrimaryColor"
+            android:layout_marginBottom="8dp" />
+
+        <CheckBox
+            android:id="@+id/cbDatabase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Database"
+            android:fontFamily="@font/porshaichela"
+            android:textColor="@color/textPrimaryColor"
+            android:layout_marginBottom="8dp" />
+
+        <CheckBox
+            android:id="@+id/cbNetworking"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Networking"
+            android:fontFamily="@font/porshaichela"
+            android:textColor="@color/textPrimaryColor"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="362dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/porshaichela"
+            android:text="Jenis Kelamin"
+            android:textColor="@color/textPrimaryColor"
+            android:textSize="18sp" />
+
+        <RadioGroup
+            android:id="@+id/rgGender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/rbMale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/porshaichela"
+                android:textColor="@color/textPrimaryColor"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/rbFemale"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/porshaichela"
+                android:textColor="@color/textPrimaryColor"
+                android:text="Female" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnSimpan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Simpan"
+            android:fontFamily="@font/porshaichela"
+            android:backgroundTint="@color/primaryColor"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnProfil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profil"
+            android:fontFamily="@font/porshaichela"
+            android:backgroundTint="@color/accentColor"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</ScrollView>
